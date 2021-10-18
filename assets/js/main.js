@@ -36,7 +36,7 @@ function corDoParagrafo (indice) {
         return 'vermelho';
     }else if (indice >= 29.9) {
         return 'amarelo';
-    }else if (indice < 18.5) {
+    }else if (indice < 18.5 || indice >= 18.5) {
         return 'verde';
     }
 }
