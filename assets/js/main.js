@@ -32,9 +32,9 @@ form.addEventListener('submit', (e) => {
 
 //Cor Do paragrafo
 function corDoParagrafo (indice) {
-    if (indice >= 39.9) {
+    if (indice >= 35) {
         return 'vermelho';
-    }else if (indice >= 29.9) {
+    }else if (indice >= 25) {
         return 'amarelo';
     }else if (indice < 18.5 || indice >= 18.5) {
         return 'verde';
